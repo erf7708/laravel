@@ -16,6 +16,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background: #f6f9ff;
   color: #444444;
+  direction: rtl;
+  text-align: right;
+  /* float: right; */
 }
 
 a {
@@ -239,6 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #899bbd;
   font-size: 14px;
   font-weight: 400;
+  text-align: right;
 }
 
 .card-body {
@@ -551,7 +555,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1199px) {
   .sidebar {
-    left: -300px;
+    right: -300px;
   }
 }
 .sidebar::-webkit-scrollbar {
@@ -571,15 +575,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1199px) {
   .toggle-sidebar .sidebar {
-    left: 0;
+    right: 0;
   }
 }
 @media (min-width: 1200px) {
   .toggle-sidebar #main, .toggle-sidebar #footer {
-    margin-left: 0;
+    margin-right: 0;
   }
   .toggle-sidebar .sidebar {
-    left: -300px;
+    right: -300px;
   }
 }
 
@@ -616,7 +620,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sidebar-nav .nav-link i {
   font-size: 16px;
-  margin-right: 10px;
+  margin-left: 10px;
   color: #4154f1;
 }
 .sidebar-nav .nav-link.collapsed {
@@ -634,7 +638,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #4154f1;
 }
 .sidebar-nav .nav-link .bi-chevron-down {
-  margin-right: 0;
+  margin-left: 0;
   transition: transform 0.2s ease-in-out;
 }
 .sidebar-nav .nav-link:not(.collapsed) .bi-chevron-down {
@@ -674,12 +678,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Filter dropdown */
 .dashboard .filter {
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: 15px;
 }
 .dashboard .filter .icon {
   color: #aab7cf;
-  padding-right: 20px;
+  padding-left: 20px;
   padding-bottom: 5px;
   transition: 0.3s;
   font-size: 16px;
@@ -698,9 +702,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #aab7cf;
   margin-bottom: 0;
   padding: 0;
+  text-align: right;
 }
 .dashboard .filter .dropdown-item {
   padding: 8px 15px;
+  text-align: right;
 }
 
 /* Info Cards */
