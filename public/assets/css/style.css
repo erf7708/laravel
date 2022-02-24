@@ -653,8 +653,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #4154f1;
 }
 .sidebar-nav .nav-link .bi-chevron-down {
-  margin-left: 0;
   transition: transform 0.2s ease-in-out;
+  margin-right: 120px;
 }
 .sidebar-nav .nav-link:not(.collapsed) .bi-chevron-down {
   transform: rotate(180deg);

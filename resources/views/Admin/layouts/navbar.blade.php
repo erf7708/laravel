@@ -10,7 +10,7 @@
     
     <div class="search-bar float-right" >
         <form class="search-form d-flex align-items-center" method="POST" action="#">
-            <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+            <input type="text" name="query" placeholder="جستجو" title="Enter search keyword">
             <button type="submit" title="Search"><i class="bi bi-search"></i></button>
         </form>
     </div><!-- End Search Bar -->
@@ -169,7 +169,7 @@
                 
                 <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                     <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-                    <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+                    <span class="d-none d-md-block dropdown-toggle ps-2">عرفان رضایی</span>
                 </a><!-- End Profile Iamge Icon -->
                 
                 <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
