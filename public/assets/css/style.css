@@ -16,11 +16,11 @@
   font-family: Vazir;
   font-style: normal;
   font-weight: normal;
-  src: url('public/fonts/Vazir.eot');
-  src: url('public/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
-  url('public/fonts/Vazir.woff2') format('woff2'),
-  url('public/fonts/Vazir.woff') format('woff'),
-  url('public/fonts/Vazir.ttf') format('truetype');
+  src: url('../fonts/Vazir.eot');
+  src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/Vazir.woff2') format('woff2'),
+  url('../fonts/Vazir.woff') format('woff'),
+  url('../fonts/Vazir.ttf') format('truetype');
 }
 
 
