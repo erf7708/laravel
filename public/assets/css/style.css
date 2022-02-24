@@ -12,8 +12,23 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('public/fonts/Vazir.eot');
+  src: url('public/fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+  url('public/fonts/Vazir.woff2') format('woff2'),
+  url('public/fonts/Vazir.woff') format('woff'),
+  url('public/fonts/Vazir.ttf') format('truetype');
+}
+
+
+
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Vazir', Arial, sans-serif; !important;
+  font-weight:normal;
   background: #f6f9ff;
   color: #444444;
   direction: rtl;

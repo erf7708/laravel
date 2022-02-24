@@ -1,7 +1,7 @@
-@component('Admin.layouts.content',['title'=>'Dashboard'])
+@component('Admin.layouts.content',['title'=>'پنل مدیریت'])
 	@slot('breadcrumbs')
-		<li class="breadcrumb-item"><a href="index.html">Home</a>/</li>
-		<li class="breadcrumb-item active">Dashboard</li>
+		<li class="breadcrumb-item"><a href="index.html">خانه</a>/</li>
+		<li class="breadcrumb-item active">پنل مدیریت</li>
 		@endslot
 	<div class="row">
 		
