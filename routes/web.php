@@ -24,3 +24,5 @@ Route::get('/admin',function (){
 Route::get('/user',function (){
    return view('Admin.main');
 });
+
+Route::get('/amazon',['App\Http\Controllers\AmazonController','index'])->name('amazon.index');
